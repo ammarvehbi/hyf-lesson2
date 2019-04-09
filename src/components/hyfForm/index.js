@@ -1,7 +1,7 @@
 import React from "react";
 
 const hyfForm = props => {
-  return <form>{props.children}</form>;
+  return <form onSubmit={props.handleSubmit}>{props.children}</form>;
 };
 
 export default hyfForm;
